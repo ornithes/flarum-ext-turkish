@@ -30,14 +30,14 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Öntanımlı Dil
       forum_description_heading: Forum Açıklaması
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
+      forum_description_text: Forumunuz için kısa bir veya iki cümle yazın. Bu arama motorlarında ve meta etiketleri arasında gözükür.
       forum_title_heading: Forum Başlığı
       home_page_heading: Anasayfa
       home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
       saved_message: Değişiklikleriniz kaydedildi.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Karşılama Mesajı
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      welcome_banner_text: "Tüm Tartışmalar" sayfasında gözükecek olan mesajı girin. Ziyaretçileri karşılamak için bu mesajı kullanabilirsiniz
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -111,7 +111,7 @@ core:
       moderate_heading: Moderate
       new_group_button: Yeni Grup
       participate_heading: Participate
-      read_heading: Oku
+      read_heading: Okuma
       rename_discussions_label: Rename discussions
       reply_to_discussions_label: Reply to discussions
       sign_up_label: Kayıt Ol
@@ -280,7 +280,7 @@ core:
       now_link: Son Mesaj
       original_post_link: Asıl Mesaj
       unread_text: "{count} okunmamış"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      viewing_text: "Mesaj {index}, Toplam {count}|{index} of {count} posts"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
