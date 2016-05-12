@@ -4,7 +4,6 @@
     "description": "Turkish language pack for Flarum beta 5.",
     "keywords": ["flarum", "locale"],
     "license": "MIT",
-    "minimum-stability": "dev",
     "require": {
         "flarum/core": "^0.1.0-beta.5"
     },
