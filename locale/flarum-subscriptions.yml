@@ -16,7 +16,7 @@ flarum-subscriptions:
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
       unfollow_button: Takibi bırak
-      unignore_button: Unignore
+      unignore_button: Gör
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,7 +24,7 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      new_post_text: "{username} gönderdi"
 
     # These translations are used in the Settings page.
     settings:
@@ -35,13 +35,13 @@ flarum-subscriptions:
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: Tüm cevaplarda bildirim alın.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
-      not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      ignoring_text: Asla bildirim almayın. Tartışmalar listesinden gizleyin.
+      not_following_button: Takip Edilmiyor
+      not_following_text: "Yalnızca @bahsedilme ile bildirim alın."
+      notify_alert_tooltip: Yeni mesajlar gönderildiğinde forum bildirimi alın
+      notify_email_tooltip: Yeni mesajlar gönderildiğinde mail bildirimi alın
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -51,4 +51,4 @@ flarum-subscriptions:
   ref:
     follow: Takip Et
     following: Takiplerin
-    ignoring: Ignoring
+    ignoring: Görmezden Gel
