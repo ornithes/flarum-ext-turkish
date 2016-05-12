@@ -161,21 +161,21 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Bir mesaj yazın...
-      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
+      discard_confirmation: "Henüz tartışmanızı göndermediniz. Yok saymak ister misiniz?"
       submit_button: Tartışmayı Gönder
       title: => core.ref.start_a_discussion
       title_placeholder: Tartışma Başlığı
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
+      discard_confirmation: "Değişiklikleri kaydetmediniz. Yok saymak ister misiniz?"
       post_link: "Post #{number} in {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "Cevabınızı göndermediniz. Do you wish to discard it?"
+      discard_confirmation: "Cevabınızı göndermediniz. Yok saymak ister misiniz?"
       posted_message: Cevabınız gönderildi.
       submit_button: Cevabı Gönder
       view_button: Görüntüle
@@ -280,7 +280,7 @@ core:
       now_link: Son Mesaj
       original_post_link: Asıl Mesaj
       unread_text: "{count} okunmamış"
-      viewing_text: "{index}. mesaj, toplam {count}|{index} of {count} posts"
+      viewing_text: "{count} mesajdan {index}.|{count} mesajdan {count}."
 
     # These translations are displayed between posts in the post stream.
     post_stream:

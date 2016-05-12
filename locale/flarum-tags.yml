@@ -38,10 +38,10 @@ flarum-tags:
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
       range_separator_text: " to "
-      required_primary_heading: Required Number of Primary Tags
-      required_primary_text: Enter the minimum and maximum number of primary tags that may be applied to a discussion.
-      required_secondary_heading: Required Number of Secondary Tags
-      required_secondary_text: Enter the minimum and maximum number of secondary tags that may be applied to a discussion.
+      required_primary_heading: Gerekli Birincil Etiket Sayısı
+      required_primary_text: Tartışmaya uygulanacak en çok ve en az birincil etiket sayısını girin.
+      required_secondary_heading: Gerekli İkincil Etiket Sayısı
+      required_secondary_text: Tartışmaya uygulanacak en çok ve en az ikincil etiket sayısını girin.
       title: Etiket Ayarları
 
     # These translations are used in the Tags page.
@@ -57,8 +57,8 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Ana etiketi seçin|Choose {count} primary tags"
-      choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
+      choose_primary_placeholder: "Ana etiketi seçin|{count} Ana etiketi seçin"
+      choose_secondary_placeholder: "Bir tane daha etiket seçin |{count} tane daha etiket seçin"
       edit_title: "{title} İçin Etiketleri Düzenle"
       submit_button: => core.ref.okay
       title: Tartışmanız İçin Etiket Seçin
