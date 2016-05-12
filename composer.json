@@ -1,5 +1,5 @@
 {
-    "name": "flarum/flarum-ext-trbeta",
+    "name": "bek/flarum-ext-trbeta",
     "type": "flarum-extension",
     "description": "Turkish language pack for Flarum beta 5.",
     "keywords": ["locale"],
