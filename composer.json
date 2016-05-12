@@ -11,7 +11,7 @@
         }
     ],
     "support": {
-        "source": "https://github.com/bekirkarul/flarum-ext-trbeta",
+        "source": "https://github.com/bekirkarul/flarum-ext-trbeta"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.5"
