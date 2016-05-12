@@ -48,7 +48,7 @@ core:
       support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
       troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
       version_text: "Thanks for trying out Flarum! You are running version {version}."
-      welcome_text: "Welcome to Flarum Beta!"
+      welcome_text: "Flarum Beta'ya hoşgeldiniz!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -64,10 +64,10 @@ core:
       icon_label: Simge
       icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
       name_label: İsim
-      plural_placeholder: Çoğul (e.g. Mods)
-      singular_placeholder: Tekil (e.g. Mod)
+      plural_placeholder: Çoğul (örn Moderatörler)
+      singular_placeholder: Tekil (örn Moderatör)
       submit_button: => core.ref.save_changes
-      title: Create Group
+      title: Grup oluştur
 
     # These translations are used in the Extensions page.
     extensions:
@@ -90,9 +90,9 @@ core:
       appearance_button: Görünüm
       appearance_text: "Forumunuzun renklerini, logosunu ve diğer özelliklerini özelleştirin."
       basics_button: Temel Ayarlar
-      basics_text: "Set your forum title, language, and other basic settings."
+      basics_text: "Forumunuzun başlığını, dilini ve diğer basit ayarlarını seçin."
       dashboard_button: Dashboard
-      dashboard_text: Your forum at a glance.
+      dashboard_text: İlk bakışta forumunuz.
       extensions_button: Eklentiler
       extensions_text: Add extra functionality to your forum and make it your own.
       permissions_button: İzinler
@@ -103,28 +103,28 @@ core:
       allow_renaming_label: Allow renaming
       allow_post_editing_label: Allow post editing
       create_heading: Oluştur
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
+      delete_discussions_forever_label: Tartışmaları tamamen silme
+      delete_discussions_label: Tartışmaları gizleme
+      delete_posts_forever_label: Mesajları tamamen silme
       edit_and_delete_posts_label: Edit and delete posts
       global_heading: Global
       moderate_heading: Moderate
       new_group_button: Yeni Grup
-      participate_heading: Participate
+      participate_heading: Katılım
       read_heading: Okuma
-      rename_discussions_label: Rename discussions
+      rename_discussions_label: Tartışmaları yeniden isimlendirme
       reply_to_discussions_label: Reply to discussions
       sign_up_label: Kayıt Ol
-      start_discussions_label: Start discussions
-      view_discussions_label: View discussions
+      start_discussions_label: Tartışma başlatma
+      view_discussions_label: Tartışmaları görme
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
+      allow_indefinitely_button: Süresiz olarak
       allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      allow_ten_minutes_button: 10 dakika boyunca
+      allow_until_reply_button: Sonraki cevaba kadar
+      everyone_button: Herkes
       members_button: => core.group.members
       signup_closed_button: Kapalı
       signup_open_button: Açık
@@ -177,7 +177,7 @@ core:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
       posted_message: Cevabınız gönderildi.
-      submit_button: Post Reply
+      submit_button: Cevabı Gönder
       view_button: Görüntüle
 
     # These translations are used by the discussion control buttons.
@@ -304,9 +304,9 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      notify_discussion_renamed_label: Başlattığım tartışmanın ismi değiştiğinde
+      privacy_disclose_online_label: Çevrimiçi olduğumu başkalarına göster
+      privacy_heading: Gizlilik
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
@@ -327,7 +327,7 @@ core:
       avatar_upload_tooltip: Yeni bir avatar yükle
       bio_placeholder: Kendiniz hakkında bir şeyler yazın
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
+      in_discussion_text: "{discussion} içinde"
       joined_date_text: "{ago} katıldı"
       online_text: Çevrimiçi
       posts_load_more_button: => core.ref.load_more
@@ -338,14 +338,14 @@ core:
     user_controls:
       button: Kontroller
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "Bu kullanıcıyı silmek istediğinize emin misiniz? Kullanıcının tüm mesajları da silinecek."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: Maili Tekrar Gönder
+      sent_message: Gönderildi
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
@@ -360,10 +360,10 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      generic_message: "Hay aksi! Bir şeyler ters gitti. Lütfen sayfayı yenileyip tekrar deneyin."
+      not_found_message: İstenilen kaynak bulunamadı.
+      permission_denied_message: Bunu yapmaya yetkiniz yok.
+      rate_limit_exceeded_message: Çok hızlısınız. Birkaç saniye içinde tekrar deneyin.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -373,8 +373,8 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, ve {third}"
+      two_text: "{first} ve {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -383,12 +383,12 @@ core:
     content:
       javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
       load_error_message: Something went wrong while trying to load the full version of this site.
-      loading_text: Loading...
+      loading_text: Yükleniyor...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Previous Page
+      previous_page_button: Önceki Sayfa
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -399,7 +399,7 @@ core:
     reset:
       confirm_password_label: => core.ref.confirm_password
       password_label: => core.ref.password
-      submit_button: Reset Password
+      submit_button: Şifreyi Sıfırla
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in emails sent by the forum.
@@ -454,7 +454,7 @@ core:
     change_email: E-postayı Değiştir
     change_password: Şifreyi Değiştir
     confirm_password: Şifreyi Doğrula
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+    confirmation_email_sent: "{email} adresine bir doğrulama maili gönderdik. Eğer henüz gelmediyse, istenmeyen mailler klasörünü kontrol edin."
     delete: Sil
     delete_forever: Tamamen Sil
     discussions: Tartışmalar
@@ -466,7 +466,7 @@ core:
     mark_all_as_read: Tümünü Okundu Olarak İşaretle
     next_page: Sonraki Sayfa
     notifications: Bildirimler
-    okay: OK                                     # Referenced by flarum-tags.yml
+    okay: TAMAM                                     # Referenced by flarum-tags.yml
     password: Şifre
     reply: Cevapla                                 # Referenced by flarum-mentions.yml
     reset_your_password: Şifreyi Sıfırla
@@ -492,5 +492,5 @@ core:
     guests: Ziyaretçiler
     member: Üye
     members: Üyeler
-    mod: Mod
-    mods: Mods
+    mod: Moderatör
+    mods: Moderatörler
