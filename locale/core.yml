@@ -87,15 +87,15 @@ core:
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Appearance
-      appearance_text: "Customize your forum's colors, logos, and other variables."
-      basics_button: Basics
+      appearance_button: Görünüm
+      appearance_text: "Forumunuzun renklerini, logosunu ve diğer özelliklerini özelleştirin."
+      basics_button: Temel Ayarlar
       basics_text: "Set your forum title, language, and other basic settings."
       dashboard_button: Dashboard
       dashboard_text: Your forum at a glance.
       extensions_button: Eklentiler
       extensions_text: Add extra functionality to your forum and make it your own.
-      permissions_button: Permissions
+      permissions_button: İzinler
       permissions_text: Configure who can see and do what.
 
     # These translations are used in the Permissions page of the admin interface.
@@ -114,7 +114,7 @@ core:
       read_heading: Oku
       rename_discussions_label: Rename discussions
       reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
+      sign_up_label: Kayıt Ol
       start_discussions_label: Start discussions
       view_discussions_label: View discussions
 
@@ -199,7 +199,7 @@ core:
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Okundu olarak işaretle
       replied_text: "{username} replied {ago}"
-      started_text: "{username} {ago} başlattı"
+      started_text: "{username} started {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
