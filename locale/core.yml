@@ -121,7 +121,7 @@ core:
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Süresiz olarak
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
+      allow_some_minutes_button: "{count} dakika için|{count} dakika için"
       allow_ten_minutes_button: 10 dakika boyunca
       allow_until_reply_button: Sonraki cevaba kadar
       everyone_button: Herkes
@@ -214,8 +214,8 @@ core:
       email_placeholder: => core.ref.email
       email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
       not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
+      submit_button: Şifreyi Sıfırla
+      text: E-posta adresinizi girin, ardından size şifrenizi sıfırlamanızı sağlayacak bir bağlantı göndereceğiz.
       title: Şifremi Unuttum
 
     # These translations are used in the header and session dropdown menu.
@@ -381,7 +381,7 @@ core:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
+      javascript_disabled_message: Bu site en iyi modern bir internet tarayıcısında JavaScript aktif iken gözükür.
       load_error_message: Something went wrong while trying to load the full version of this site.
       loading_text: Yükleniyor...
 
