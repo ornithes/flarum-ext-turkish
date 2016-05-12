@@ -3,11 +3,12 @@
     "type": "flarum-extension",
     "description": "Turkish language pack for Flarum.",
     "homepage": "https://github.com/bekirkarul/flarum-ext-turkish",
-    "keywords": ["locale"],
+    "keywords": ["flarum", "locale"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Bekir Karul"
+            "name": "Bekir Karul",
+            "email": "ebekirkarul@gmail.com"
         }
     ],
     "support": {
