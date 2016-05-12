@@ -36,7 +36,7 @@ flarum-flags:
 
     # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
-      empty_text: No Flags
+      empty_text: Bildirilmiş Mesaj Yok
       item_text: "{username} <em>{discussion}</em> içinde"
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts

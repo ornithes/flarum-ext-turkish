@@ -182,7 +182,7 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
+      cannot_reply_button: Cevaplanamaz
       cannot_reply_text: Bu tartışmaya cevap verme yetkiniz yok.
       delete_button: => core.ref.delete
       delete_confirmation: "Bu tartışmayı silmek istediğinize emin misiniz?"
@@ -213,9 +213,9 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
+      not_found_message: Bu e-posta ile kayıt olmuş bir kullanıcı bulunamadı.
       submit_button: Şifreyi Sıfırla
-      text: E-posta adresinizi girin, ardından size şifrenizi sıfırlamanızı sağlayacak bir bağlantı göndereceğiz.
+      text: E-posta adresinizi girin, size şifrenizi sıfırlamanızı sağlayacak bir bağlantı göndereceğiz.
       title: Şifremi Unuttum
 
     # These translations are used in the header and session dropdown menu.
@@ -243,7 +243,7 @@ core:
       newest_button: En Yeni
       oldest_button: En Eski
       relevance_button: Alâka
-      top_button: En İyi
+      top_button: En Popüler
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -412,10 +412,10 @@ core:
 
         Birisi (umarız ki sen!) has signed up to {forum} with this email address.
 
-        If this was you, simply click the following link and your account will be activated:
+        Eğer bu sen isen, basitçe aşağıdaki bağlantıya tıkla böylece hesabın aktifleşmiş olacak:
         {url}
 
-        Eğer kayıt olmadıysanız bu mesajı görmezden gelin.
+        Eğer kayıt olmadıysan, bu mesajı görmezden gel.
       subject: Hesabınızı Aktifleştirin
 
     # These translations are used in emails sent when users change their email address.
@@ -425,10 +425,10 @@ core:
 
         Birisi (umarız ki sen!) has changed their email address on {forum} to this one.
 
-        If this was you, simply click the following link and your email will be confirmed:
+        Eğer bu sen isen, basitçe aşağıdaki bağlantıya tıkla böylece e-posta adresin doğrulanmış olacak:
         {url}
 
-        If this was not you, please ignore this email.
+        Eğer kayıt olmadıysan, bu mesajı görmezden gel.
       subject: Yeni E-posta Adresinizi Onaylayın
 
     # These translations are used in emails sent when users ask to reset their passwords.
@@ -438,10 +438,10 @@ core:
 
         Birisi (umarız ki sen!) has submitted a forgotten password request for your account on {forum}.
 
-        If this was you, click the following link to reset your password:
+        Eğer bu sen isen, şifreni sıfırlamak için aşağıdaki bağlantıya tıkla:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        Eğer şifrenizi değiştirmek istememişsen, sadece bu mesajı görmezden gel. Bir şey olmayacak.
       subject: => core.ref.reset_your_password
 
   ##
@@ -460,7 +460,7 @@ core:
     discussions: Tartışmalar
     edit: Düzenle
     email: E-posta
-    load_more: Daha Fazla Göster
+    load_more: Daha fazla göster
     log_in: Giriş Yap
     log_out: Çıkış Yap
     mark_all_as_read: Tümünü Okundu Olarak İşaretle
