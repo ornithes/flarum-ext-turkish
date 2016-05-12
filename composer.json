@@ -24,7 +24,7 @@
             "title": "Turkish",
             "icon": {
                 "image": "icon.svg",
-                "backgroundColor": "#fff",
+                "backgroundColor": "#00247d",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
