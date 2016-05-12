@@ -17,12 +17,12 @@ core:
     appearance:
       colored_header_label: Renkli Başlık
       colors_heading: Renkler
-      colors_text: "Forumunuza uygulanacak iki rengi seçin. Birinci renk vurgu için, ikinci olan ise arkaplan öğeleri için kullanılacak."
-      custom_styles_heading: Custom Styles
+      colors_text: "Forumunuza uygulanacak iki rengi seçin. Birinci renk öğelerin vurgusu için, ikinci olan ise arkaplan öğeleri için kullanılacak."
+      custom_styles_heading: Özel Stiller
       custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
       dark_mode_label: Karanlık Mod
-      edit_css_button: Edit Custom CSS
-      enter_hex_message: Please enter a hexadecimal color code.
+      edit_css_button: Özel Stili Düzenle
+      enter_hex_message: Lütfen onaltılık bir renk kodu girin.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -460,7 +460,7 @@ core:
     discussions: Tartışmalar
     edit: Düzenle
     email: E-posta
-    load_more: Load More
+    load_more: Daha Fazla Göster
     log_in: Giriş Yap
     log_out: Çıkış Yap
     mark_all_as_read: Tümünü Okundu Olarak İşaretle
@@ -474,7 +474,7 @@ core:
     save_changes: Kaydet                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Ayarlar
     sign_up: Kayıt Ol
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count} diğer|{count} diğer kişi"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Tartışma Başlat
     username: Kullanıcı Adı
     write_a_reply: Cevap yaz...
