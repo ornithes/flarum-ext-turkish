@@ -25,8 +25,8 @@ moment.locale('fr', {
     sameElse: 'L'
   },
   relativeTime : {
-    future : '%s önce',
-    past : '%s sonra',
+    future : '%s sonra',
+    past : '%s önce',
     s : 'birkaç saniye',
     m : 'bir dakika',
     mm : '%d dakika',
