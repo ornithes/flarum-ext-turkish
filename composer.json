@@ -22,7 +22,7 @@
             "dev-master": "0.3.x-dev"
         },
         "flarum-extension": {
-            "title": "Turkish",
+            "title": "Türkçe",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
@@ -32,7 +32,7 @@
         },
         "flarum-locale": {
             "code": "tr",
-            "title": "Turkish"
+            "title": "Türkçe"
         }
     }
 }
