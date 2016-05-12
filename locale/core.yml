@@ -17,7 +17,7 @@ core:
     appearance:
       colored_header_label: Renkli Başlık
       colors_heading: Renkler
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
+      colors_text: "Forumunuza uygulanacak iki rengi seçin. Birinci renk vurgu için, ikinci olan ise arkaplan öğeleri için kullanılacak."
       custom_styles_heading: Custom Styles
       custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
       dark_mode_label: Karanlık Mod
@@ -33,7 +33,7 @@ core:
       forum_description_text: Forumunuz için kısa bir veya iki cümle yazın. Bu arama motorlarında ve meta etiketleri arasında gözükür.
       forum_title_heading: Forum Başlığı
       home_page_heading: Anasayfa
-      home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
+      home_page_text: "Kullanıcıların forumunuzu ilk ziyaret ettiğinde göreceği sayfayı seçin. If entering a custom value, use the path relative to the forum root."
       saved_message: Değişiklikleriniz kaydedildi.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Karşılama Mesajı
@@ -41,13 +41,13 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
-      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
-      extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
-      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
-      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
-      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
-      version_text: "Thanks for trying out Flarum! You are running version {version}."
+      beta_warning_text: "Bu <strong>beta sürümü</strong> özellikle bize yardım edip test etmeniz ve böylece yazılımı daha da iyi hale getirmemiz için sunuldu; it should not be used in production."
+      contributing_text: "Hata bulmak ve katkı sağlamak mı istiyorsunuz? <a>Katkı sağlama dökümanları</a>nı okuyun."
+      extension_text: "Eklenti geliştirmek ile mi ilgileniyorsunuz? <a>Eklenti dökümanları </a>nı okuyun."
+      features_text: "Geliştirme için fikriniz mi var? Tell us about it under the <a>Features tag</a>."
+      support_text: "Hata mı buldunuz? Please report it in our forum, under the <a>Support tag</a>."
+      troubleshooting_text: "Probleminiz mi var? <a>Sorun çözme</a> dökümanlarına göz atın."
+      version_text: "Flarum'u denediğiniz için teşekkürler! {version} versiyonunu kullanıyorsunuz."
       welcome_text: "Flarum Beta'ya hoşgeldiniz!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
@@ -91,7 +91,7 @@ core:
       appearance_text: "Forumunuzun renklerini, logosunu ve diğer özelliklerini özelleştirin."
       basics_button: Temel Ayarlar
       basics_text: "Forumunuzun başlığını, dilini ve diğer basit ayarlarını seçin."
-      dashboard_button: Dashboard
+      dashboard_button: Genel Bakış
       dashboard_text: İlk bakışta forumunuz.
       extensions_button: Eklentiler
       extensions_text: Forumunuza kendinize uygun başka özellikler ekleyin.
