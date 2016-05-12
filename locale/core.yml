@@ -183,22 +183,22 @@ core:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: Can't Reply
-      cannot_reply_text: You don't have permission to reply to this discussion.
+      cannot_reply_text: Bu tartışmaya cevap verme yetkiniz yok.
       delete_button: => core.ref.delete
       delete_confirmation: "Are you sure you want to delete this discussion?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Cevap vermek için giriş yapın
-      rename_button: Rename
+      rename_button: Başlığı Düzenle
       rename_text: "Bu tartışma için yeni bir isim"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: It looks like there are no discussions here.
+      empty_text: Görünüşe göre burada bir tartışma yok.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Okundu olarak işaretle
-      replied_text: "{username} replied {ago}"
+      replied_text: "{username} {ago} cevap verdi"
       started_text: "{username} {ago} başlattı"
 
     # These translations are used in the Edit User modal dialog (admin function).
@@ -451,7 +451,7 @@ core:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: Tüm Tartışmalar
-    change_email: Change Email
+    change_email: E-postayı Değiştir
     change_password: Şifreyi Değiştir
     confirm_password: Şifreyi Doğrula
     confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
@@ -468,16 +468,16 @@ core:
     notifications: Bildirimler
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Şifre
-    reply: Yanıtla                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
+    reply: Cevapla                                 # Referenced by flarum-mentions.yml
+    reset_your_password: Şifreyi Sıfırla
     restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    save_changes: Kaydet                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Ayarlar
     sign_up: Sign Up
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
+    start_a_discussion: Tartışma Başlat
     username: Kullnıcı Adı
-    write_a_reply: Yanıt yaz...
+    write_a_reply: Cevap yaz...
     you: Sen                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
