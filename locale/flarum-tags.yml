@@ -57,15 +57,15 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
+      choose_primary_placeholder: "Ana etiketi seçin|Choose {count} primary tags"
       choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
-      edit_title: "Edit Tags for {title}"
+      edit_title: "{title} İçin Etiketleri Düzenle"
       submit_button: => core.ref.okay
-      title: Choose Tags for Your Discussion
+      title: Tartışmanız İçin Etiket Seçin
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Choose Tags
+      choose_tags_link: Etiketleri Seç
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -79,9 +79,9 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} added the {tagsAdded}."
+      added_tags_text: "{username} {tagsAdded} etiketini ekledi."
       added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
-      removed_tags_text: "{username} removed the {tagsRemoved}."
+      removed_tags_text: "{username} {tagsRemoved} sildi."
       tags_text: "{tags} tag|{tags} tags"
 
   # Translations in this namespace are used by the forum and admin interfaces.

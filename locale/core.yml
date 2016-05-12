@@ -160,7 +160,7 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
+      body_placeholder: Bir cevap yazın...
       discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
       submit_button: Post Discussion
       title: => core.ref.start_a_discussion
@@ -234,31 +234,31 @@ core:
       cannot_start_discussion_button: Can't Start Discussion
       mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
+      refresh_tooltip: Yenile
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
-      top_button: Top
+      latest_button: En Son
+      newest_button: En Yeni
+      oldest_button: En Eski
+      relevance_button: Alâka
+      top_button: En İyi
 
     # These translations are used in the Log In modal dialog.
     log_in:
       forgot_password_link: "Şifrenizi mi unuttunuz?"
       invalid_login_message: Your login details were incorrect.
       password_placeholder: => core.ref.password
-      sign_up_text: "Don't have an account? <a>Kayıt Olun</a>"
+      sign_up_text: "Hesabınız yok mu? <a>Kayıt Olun</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: Kullanıcı Adı veya E-posta
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      discussion_renamed_text: "{username} başlığı değiştirdi"
+      empty_text: Bildirim Yok
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
@@ -277,22 +277,22 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
+      now_link: Son Mesaj
+      original_post_link: Asıl Mesaj
+      unread_text: "{count} okunmamış"
       viewing_text: "{index} of {count} post|{index} of {count} posts"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_old_tooltip: 'The old title was: "{old}"'
-      discussion_renamed_text: "{username} changed the title to {new}."
+      discussion_renamed_text: "{username} başlığı {new} olarak değiştirdi."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} later"
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'Tüm tartışmalarda "{query}" ara'
       discussions_heading: => core.ref.discussions
       users_heading: Kullanıcılar
 
@@ -328,15 +328,15 @@ core:
       bio_placeholder: Kendiniz hakkında bir şeyler yazın
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
+      joined_date_text: "{ago} katıldı"
       online_text: Çevrimiçi
       posts_load_more_button: => core.ref.load_more
-      posts_link: Posts
+      posts_link: Mesajlar
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: Kontroller
       delete_button: => core.ref.delete
       delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
       edit_button: => core.ref.edit
@@ -470,7 +470,7 @@ core:
     password: Şifre
     reply: Cevapla                                 # Referenced by flarum-mentions.yml
     reset_your_password: Şifreyi Sıfırla
-    restore: Restore
+    restore: Geri Getir
     save_changes: Kaydet                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Ayarlar
     sign_up: Sign Up
