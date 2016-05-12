@@ -37,7 +37,7 @@ core:
       saved_message: Değişiklikleriniz kaydedildi.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Karşılama Mesajı
-      welcome_banner_text: "Tüm Tartışmalar" sayfasında gözükecek olan mesajı girin. Ziyaretçileri karşılamak için bu mesajı kullanabilirsiniz
+      welcome_banner_text: Tüm Tartışmalar sayfasında gözükecek olan mesajı girin. Ziyaretçileri karşılamak için bu mesajı kullanabilirsiniz
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -280,7 +280,7 @@ core:
       now_link: Son Mesaj
       original_post_link: Asıl Mesaj
       unread_text: "{count} okunmamış"
-      viewing_text: "Mesaj {index}, Toplam {count}|{index} of {count} posts"
+      viewing_text: "Mesaj {index} Toplam {count}|{index} of {count} posts"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
