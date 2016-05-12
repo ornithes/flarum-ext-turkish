@@ -18,7 +18,7 @@ flarum-suspend:
     suspend_user:
       indefinitely_label: Süresiz askıda
       limited_time_label: Sınırlı süre için askıda...
-      limited_time_days_text: " days"
+      limited_time_days_text: " gün"
       not_suspended_label: Askıda değil
       status_heading: Askıya alma durumu
       submit_button: => core.ref.save_changes
