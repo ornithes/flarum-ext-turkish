@@ -280,7 +280,7 @@ core:
       now_link: Son Mesaj
       original_post_link: Asıl Mesaj
       unread_text: "{count} okunmamış"
-      viewing_text: "Mesaj {index} Toplam {count}|{index} of {count} posts"
+      viewing_text: "{index}. mesaj, toplam {count}|{index} of {count} posts"
 
     # These translations are displayed between posts in the post stream.
     post_stream:

@@ -79,8 +79,8 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} {tagsAdded} etiketini ekledi."
-      added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
+      added_tags_text: "{username} {tagsAdded} ekledi."
+      added_and_removed_tags_text: "{username} {tagsAdded} ekledi ve {tagsRemoved} sildi."
       removed_tags_text: "{username} {tagsRemoved} sildi."
       tags_text: "{tags} etiketini|{tags} etiketlerini"
 
