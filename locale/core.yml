@@ -43,7 +43,7 @@ core:
     dashboard:
       beta_warning_text: "Bu <strong>beta sürümü</strong> bize yardım edip yazılımı test etmeniz ve böylece bizim de yazılımı daha da iyi hale getirebilmemiz için sunuldu; sitenizde kullanırken dikkatli olun."
       contributing_text: "Hata bulmak ve katkı sağlamak mı istiyorsunuz? <a>Katkı sağlama dökümanları</a>nı okuyun."
-      extension_text: "Eklenti geliştirmek ile mi ilgileniyorsunuz? <a>Eklenti dökümanları </a>nı okuyun."
+      extension_text: "Eklenti geliştirmek ile mi ilgileniyorsunuz? <a>Eklenti dökümanları</a>nı okuyun."
       features_text: "Geliştirme için fikriniz mi var? <a>Özellikler etiketi</a>nin altında bize anlatın."
       support_text: "Hata mı buldunuz? <a>Destek etiketi</a>nin altında bize bildirin."
       troubleshooting_text: "Probleminiz mi var? <a>Sorun çözme</a> dökümanlarına göz atın."
