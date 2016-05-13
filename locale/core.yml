@@ -37,7 +37,7 @@ core:
       saved_message: Değişiklikleriniz kaydedildi.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Karşılama Mesajı
-      welcome_banner_text: Tüm Tartışmalar sayfasında gözükecek olan mesajı girin. Ziyaretçileri karşılamak için bu mesajı kullanabilirsiniz
+      welcome_banner_text: Tüm Tartışmalar sayfasında gözükecek olan mesajı girin. Ziyaretçileri karşılamak için bu mesajı kullanabilirsiniz.
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -169,7 +169,7 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Değişiklikleri kaydetmediniz. Yok saymak ister misiniz?"
-      post_link: "{discussion} içindeki #{number}. mesaj"
+      post_link: "{discussion} içindeki #{number} mesaj"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
@@ -266,7 +266,7 @@ core:
     # These translations are used by tooltips displayed for individual posts.
     post:
       edited_tooltip: "{username} {ago} düzenlendi."
-      number_tooltip: "Post #{number}"
+      number_tooltip: "Mesaj #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
