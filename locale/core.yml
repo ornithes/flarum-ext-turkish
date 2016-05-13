@@ -9,9 +9,9 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "Eğer geliştirici iseniz, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "Bu arada, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      developer_text: "Eğer geliştirici iseniz, <a>dökümanları</a> okuyabilir ve kendi eklentilerinizi yazabilirsiniz."
+      install_text: "Bu arada, eklentiler için <a>Flarum Topluluğu sitesine</a> bakabilir ve eklentileri Composer yardımıyla yükleyebilirsiniz."
+      temporary_text: "Çok uzak olmayan bir gün gelecek, bu diyalog forumunuza kolaylıkla eklenti kurmanıza olanak sağlayacak. Söylediğimiz gibi, biz bir ekosistem inşa ediyoruz!"
 
     # These translations are used in the Appearance page.
     appearance:
@@ -410,7 +410,7 @@ core:
       body: |
         Selam {username}!
 
-        Birisi (umarız ki sen!) has signed up to {forum} with this email address.
+        Birisi (umarız ki sen!) bu mail adresini kullanarak {forum} kayıt oldu.
 
         Eğer bu sen isen, basitçe aşağıdaki bağlantıya tıkla böylece hesabın aktifleşmiş olacak:
         {url}
@@ -423,12 +423,12 @@ core:
       body: |
         Selam {username}!
 
-        Birisi (umarız ki sen!) has changed their email address on {forum} to this one.
+        Birisi (umarız ki sen!) {forum} üzerindeki mail adresini bu adres olarak güncelledi.
 
         Eğer bu sen isen, basitçe aşağıdaki bağlantıya tıkla böylece e-posta adresin doğrulanmış olacak:
         {url}
 
-        Eğer kayıt olmadıysan, bu mesajı görmezden gel.
+        Eğer bu değişikliği yapmadıysan, bu mesajı görmezden gel.
       subject: Yeni E-posta Adresinizi Onaylayın
 
     # These translations are used in emails sent when users ask to reset their passwords.
@@ -436,7 +436,7 @@ core:
       body: |
         Selam {username}!
 
-        Birisi (umarız ki sen!) has submitted a forgotten password request for your account on {forum}.
+        Birisi (umarız ki sen!) {forum} üzerinde bu mail ile bağlantılı hesap için şifre sıfırlama isteği gönderdi.
 
         Eğer bu sen isen, şifreni sıfırlamak için aşağıdaki bağlantıya tıkla:
         {url}
