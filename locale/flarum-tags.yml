@@ -32,7 +32,7 @@ flarum-tags:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_edit_tags_label: Etiket düzenlemeye izin ver
-      restrict_by_tag_heading: Etikete göre engelle
+      restrict_by_tag_heading: Etikete göre kısıtla
       tag_discussions_label: Tartışmaları etiketleme
 
     # These translations are used in the Tag Settings modal dialog.
