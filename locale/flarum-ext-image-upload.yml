@@ -30,7 +30,7 @@ flagrow-image-upload:
                 title: Yerel depolama ayarları
                 cdn_url: Content Delivery URL (prefixes files)
             cloudinary:
-                title: Cloudinary settings
+                title: Cloudinary ayarları
                 cloud_name: Cloud name
                 api_key: Api key
                 api_secret: Api secret
@@ -44,7 +44,7 @@ flagrow-image-upload:
                 yöntemi seçebilirsiniz. Seçim yaptığınızda uygun
                 ayar ekranı da görüntülenecek.
             resize: >
-                Choose whether you want to resize your images before
-                they get uploaded. You can choose a maxiumum width
-                and height, in pixels. The resizing process keeps the
-                aspect ratio of the images.
+                Resimlerinizin yüklenmeden önce yeniden boyutlandırılmasını
+                isteyip istemediğinizi seçin. Maksimum yükseklik ve genişliği
+                piksel cinsinden seçebilirsiniz. Bu işlem resimlerin yükseklik
+                ve genişlik oranını koruyacaktır.
