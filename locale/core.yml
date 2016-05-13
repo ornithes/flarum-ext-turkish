@@ -19,7 +19,7 @@ core:
       colors_heading: Renkler
       colors_text: "Forumunuza uygulanacak iki rengi seçin. Birinci renk öğelerin vurgusu için, ikinci olan ise arkaplan öğeleri için kullanılacak."
       custom_styles_heading: Özel Stiller
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
+      custom_styles_text: Kendinize ait LESS/CSS kodunu Flarum'un öntanımlı stilleri üzerine ekleyerek forumunuzun görünümünü özelleştirin.
       dark_mode_label: Karanlık Mod
       edit_css_button: Özel Stili Düzenle
       enter_hex_message: Lütfen onaltılık bir renk kodu girin.
@@ -41,26 +41,26 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "Bu <strong>beta sürümü</strong> özellikle bize yardım edip test etmeniz ve böylece yazılımı daha da iyi hale getirmemiz için sunuldu; it should not be used in production."
+      beta_warning_text: "Bu <strong>beta sürümü</strong> bize yardım edip yazılımı test etmeniz ve böylece bizim de yazılımı daha da iyi hale getirebilmemiz için sunuldu; sitenizde kullanırken dikkatli olun."
       contributing_text: "Hata bulmak ve katkı sağlamak mı istiyorsunuz? <a>Katkı sağlama dökümanları</a>nı okuyun."
       extension_text: "Eklenti geliştirmek ile mi ilgileniyorsunuz? <a>Eklenti dökümanları </a>nı okuyun."
-      features_text: "Geliştirme için fikriniz mi var? Tell us about it under the <a>Features tag</a>."
-      support_text: "Hata mı buldunuz? Please report it in our forum, under the <a>Support tag</a>."
+      features_text: "Geliştirme için fikriniz mi var? <a>Özellikler etiketi</a>nin altında bize anlatın."
+      support_text: "Hata mı buldunuz? <a>Destek etiketi</a>nin altında bize bildirin."
       troubleshooting_text: "Probleminiz mi var? <a>Sorun çözme</a> dökümanlarına göz atın."
       version_text: "Flarum'u denediğiniz için teşekkürler! {version} versiyonunu kullanıyorsunuz."
       welcome_text: "Flarum Beta'ya hoşgeldiniz!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "Kendinize ait LESS/CSS kodunu Flarum'un <a>öntanımlı stilleri</a> üzerine ekleyerek forumunuzun görünümünü özelleştirin."
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: Özel Stili Düzenle
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: Renk
       delete_button: Grubu Sil
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
+      delete_confirmation: "Bu grubu silmek istediğinize emin misiniz? Grup üyeleri SİLİNMEYECEK."
       icon_label: Simge
       icon_text: "<code>fa-</code> ön eki olmadan istediğiniz bir <a>FontAwesome</a> ikon ismini girin."
       name_label: İsim
@@ -169,7 +169,7 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Değişiklikleri kaydetmediniz. Yok saymak ister misiniz?"
-      post_link: "Post #{number} in {discussion}"
+      post_link: "{discussion} içindeki #{number}. mesaj"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
