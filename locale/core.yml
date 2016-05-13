@@ -9,8 +9,8 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
+      developer_text: "Eğer geliştirici iseniz, you can <a>read the docs</a> and have a go at building your own extensions."
+      install_text: "Bu arada, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
       temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
 
     # These translations are used in the Appearance page.
@@ -212,7 +212,7 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
+      email_sent_message: Şifrenizi sıfırlamanız için size bir e-posta gönderdik. Bir veya iki dakika içinde size ulaşmazsa istenmeyen posta kutunuzu kontrol edin.
       not_found_message: Bu e-posta ile kayıt olmuş bir kullanıcı bulunamadı.
       submit_button: Şifreyi Sıfırla
       text: E-posta adresinizi girin, size şifrenizi sıfırlamanızı sağlayacak bir bağlantı göndereceğiz.
@@ -382,7 +382,7 @@ core:
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
       javascript_disabled_message: Bu site en iyi modern bir internet tarayıcısında JavaScript aktif iken gözükür.
-      load_error_message: Something went wrong while trying to load the full version of this site.
+      load_error_message: Sitenin tam sürümünü yüklemeye çalışırken bir şeyler ters gitti.
       loading_text: Yükleniyor...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
