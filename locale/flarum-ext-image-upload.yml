@@ -19,10 +19,10 @@ flagrow-image-upload:
                 title: Genel özellikler
                 max_file_size: Maksimum dosya boyutu (kilobayt cinsinden)
             resize:
-                title: Image resize
-                toggle: Toggle the resize
-                max_width: Maxiumum image width
-                max_height: Maximum image height
+                title: Yeniden boyutlandırma
+                toggle: Yeniden boyutlandırmaya geç
+                max_width: Maksimum resim genişliği
+                max_height: Maksimum resim yüksekliği
             imgur:
                 title: Imgur ayarları
                 client_id: Client-ID
@@ -38,11 +38,11 @@ flagrow-image-upload:
             save: Ayarları kaydet
         help_texts:
             description: >
-                Set up image uploading services and preferences.
+                Resim yükleme servislerini ve ayarlarını yapın.
             upload_method: >
-                Here you can select the method that you want to use
-                to upload your images. When you select one the
-                relative setting card is going to be displayed.
+                Burada resimleri yüklerken kullanmak istediğiniz
+                yöntemi seçebilirsiniz. Seçim yaptığınızda uygun
+                ayar ekranı da görüntülenecek.
             resize: >
                 Choose whether you want to resize your images before
                 they get uploaded. You can choose a maxiumum width
