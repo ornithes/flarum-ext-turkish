@@ -41,7 +41,7 @@ flarum-subscriptions:
       not_following_button: Takip Edilmiyor
       not_following_text: "Yalnızca @bahsedilme ile bildirim alın."
       notify_alert_tooltip: Yeni mesajlar gönderildiğinde forum bildirimi alın
-      notify_email_tooltip: Yeni mesajlar gönderildiğinde mail bildirimi alın
+      notify_email_tooltip: Yeni mesajlar gönderildiğinde e-posta bildirimi alın
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
