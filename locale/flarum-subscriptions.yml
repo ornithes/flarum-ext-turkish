@@ -29,7 +29,7 @@ flarum-subscriptions:
     # These translations are used in the Settings page.
     settings:
       forum_follow_after_reply_label: Cevap yazdığım tartışmaları otomatik olarak takibe al
-      notify_new_post_label: Takip ettiğim tartışmaya biri mesaj attığında
+      notify_new_post_label: Takip ettiğim tartışmaya mesaj atıldığında
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
