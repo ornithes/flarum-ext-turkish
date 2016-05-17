@@ -106,7 +106,7 @@ core:
       appearance_button: Görünüm
       appearance_text: "Forumunuzun renklerini, logosunu ve diğer özelliklerini özelleştirin."
       basics_button: Temel Ayarlar
-      basics_text: "Forumunuzun başlığını, dilini ve diğer basit ayarlarını seçin."
+      basics_text: "Forumunuzun başlığını, dilini ve diğer basit ayarlarını belirleyin."
       dashboard_button: Genel Bakış
       dashboard_text: İlk bakışta forumunuz.
       email_button: => core.ref.email
