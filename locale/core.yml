@@ -68,6 +68,22 @@ core:
       singular_placeholder: Tekil (örn Moderatör)
       submit_button: => core.ref.save_changes
       title: Grup oluştur
+    
+    # These translations are used in the email page of the admin interface.
+    email:
+      account_heading: SMTP Hesabı
+      addresses_heading: Adresler
+      driver_label: Driver
+      encryption_label: Şifreleme
+      from_label: Gönderen
+      heading: => core.ref.email
+      host_label: Host
+      password_label: => core.ref.password
+      port_label: Port
+      server_heading: SMTP Sunucusu
+      submit_button: => core.ref.save_changes
+      text: Forumunuzun e-posta gönderirken kullanacağı SMTP ayar ve adreslerini yapılandırın.
+      username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
@@ -93,6 +109,8 @@ core:
       basics_text: "Forumunuzun başlığını, dilini ve diğer basit ayarlarını seçin."
       dashboard_button: Genel Bakış
       dashboard_text: İlk bakışta forumunuz.
+      email_button: => core.ref.email
+      email_text: "Forumunuzun e-posta ayarlarını yapın."
       extensions_button: Eklentiler
       extensions_text: Forumunuza kendinize uygun başka özellikler ekleyin.
       permissions_button: İzinler
