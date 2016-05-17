@@ -34,4 +34,4 @@ flarum-likes:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: Biri mesajlarımı beğendiğinde
+      notify_post_liked_label: Mesajlarımdan biri beğenildiğinde
