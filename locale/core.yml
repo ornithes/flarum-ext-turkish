@@ -147,8 +147,8 @@ core:
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Şifre Sıfırlama Maili Gönder
-      text: Aşağıdaki butona basın ve şifrenizi değiştirmek için gelecek olan maili kontrol edin.
+      send_button: Şifre Sıfırlama E-Postası Gönder
+      text: Aşağıdaki butona basın ve şifrenizi değiştirmek için gelecek olan e-postayı kontrol edin.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -215,7 +215,7 @@ core:
       email_sent_message: Şifrenizi sıfırlamanız için size bir e-posta gönderdik. Bir veya iki dakika içinde size ulaşmazsa istenmeyen posta kutunuzu kontrol edin.
       not_found_message: Bu e-posta ile kayıt olmuş bir kullanıcı bulunamadı.
       submit_button: Şifreyi Sıfırla
-      text: E-posta adresinizi girin, size şifrenizi sıfırlamanızı sağlayacak bir bağlantı göndereceğiz.
+      text: E-posta adresinizi girin, size şifrenizi sıfırlamanız için bir bağlantı göndereceğiz.
       title: Şifremi Unuttum
 
     # These translations are used in the header and session dropdown menu.
@@ -344,7 +344,7 @@ core:
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Maili Tekrar Gönder
+      resend_button: Tekrar Gönder
       sent_message: Gönderildi
 
   # Translations in this namespace are used by the forum and admin interfaces.
@@ -423,7 +423,7 @@ core:
       body: |
         Selam {username}!
 
-        Birisi (umarız ki sen!) {forum} üzerindeki mail adresini bu adres olarak güncelledi.
+        Birisi (umarız ki sen!) {forum} üzerindeki e-posta adresini bu adres olarak güncelledi.
 
         Eğer bu sen isen, basitçe aşağıdaki bağlantıya tıkla böylece e-posta adresin doğrulanmış olacak:
         {url}
@@ -436,12 +436,12 @@ core:
       body: |
         Selam {username}!
 
-        Birisi (umarız ki sen!) {forum} üzerinde bu mail ile bağlantılı hesap için şifre sıfırlama isteği gönderdi.
+        Birisi (umarız ki sen!) {forum} üzerinde bu e-posta ile bağlantılı hesap için şifre sıfırlama isteği gönderdi.
 
         Eğer bu sen isen, şifreni sıfırlamak için aşağıdaki bağlantıya tıkla:
         {url}
 
-        Eğer şifrenizi değiştirmek istememişsen, sadece bu mesajı görmezden gel. Bir şey olmayacak.
+        Eğer şifreni değiştirmek istememişsen, sadece bu mesajı görmezden gel. Bir şey olmayacak.
       subject: => core.ref.reset_your_password
 
   ##
@@ -454,7 +454,7 @@ core:
     change_email: E-postayı Değiştir
     change_password: Şifreyi Değiştir
     confirm_password: Şifreyi Doğrula
-    confirmation_email_sent: "{email} adresine bir doğrulama maili gönderdik. Eğer henüz gelmediyse, istenmeyen mailler klasörünü kontrol edin."
+    confirmation_email_sent: "{email} adresine bir doğrulama e-postası gönderdik. Eğer henüz gelmediyse, istenmeyen e-postalar klasörünü kontrol edin."
     delete: Sil
     delete_forever: Tamamen Sil
     discussions: Tartışmalar
