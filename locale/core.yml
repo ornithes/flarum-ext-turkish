@@ -410,7 +410,7 @@ core:
       body: |
         Selam {username}!
 
-        Birisi (umarız ki sen!) bu mail adresini kullanarak {forum} kayıt oldu.
+        Birisi (umarız ki sen!) bu e-posta adresini kullanarak {forum} kayıt oldu.
 
         Eğer bu sen isen, basitçe aşağıdaki bağlantıya tıkla böylece hesabın aktifleşmiş olacak:
         {url}
