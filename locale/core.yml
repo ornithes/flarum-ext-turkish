@@ -147,7 +147,7 @@ core:
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Şifre Sıfırlama E-Postası Gönder
+      send_button: Şifre Sıfırlama E-postası Gönder
       text: Aşağıdaki butona basın ve şifrenizi değiştirmek için gelecek olan e-postayı kontrol edin.
       title: => core.ref.change_password
 
@@ -189,7 +189,7 @@ core:
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Giriş yapın
       rename_button: Başlığı Düzenle
-      rename_text: "Bu tartışma için yeni bir isim"
+      rename_text: "Bu tartışma için yeni bir başlık girin:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -304,7 +304,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Başlattığım tartışmanın ismi değiştirildiğinde
+      notify_discussion_renamed_label: Başlattığım tartışmanın başlığı değiştirildiğinde
       privacy_disclose_online_label: Çevrimiçi olduğumu başkalarına göster
       privacy_heading: Gizlilik
       title: => core.ref.settings
