@@ -428,7 +428,7 @@ core:
       body: |
         Selam {username}!
 
-        Birisi (umarız ki sen!) bu e-posta adresini kullanarak {forum} kayıt oldu.
+        Birisi (umarız ki sen!) bu e-posta adresini kullanarak {forum} forumuna kayıt oldu.
 
         Eğer bu sen isen, basitçe aşağıdaki bağlantıya tıkla böylece hesabın aktifleşmiş olacak:
         {url}
@@ -441,9 +441,9 @@ core:
       body: |
         Selam {username}!
 
-        Birisi (umarız ki sen!) {forum} üzerindeki e-posta adresini bu adres olarak güncelledi.
+        Birisi (umarız ki sen!) {forum} forumunda kayıtlı e-posta adresini bu adres olarak güncelledi.
 
-        Eğer bu sen isen, basitçe aşağıdaki bağlantıya tıkla böylece e-posta adresin doğrulanmış olacak:
+        Eğer bu sen isen, sadece aşağıdaki bağlantıya tıkla böylece e-posta adresin doğrulanmış olacak:
         {url}
 
         Eğer bu değişikliği yapmadıysan, bu mesajı görmezden gel.
@@ -454,7 +454,7 @@ core:
       body: |
         Selam {username}!
 
-        Birisi (umarız ki sen!) {forum} üzerinde bu e-posta ile bağlantılı hesap için şifre sıfırlama isteği gönderdi.
+        Birisi (umarız ki sen!) {forum} forumunda bu e-posta ile bağlantılı hesap için şifre sıfırlama isteği gönderdi.
 
         Eğer bu sen isen, şifreni sıfırlamak için aşağıdaki bağlantıya tıkla:
         {url}
