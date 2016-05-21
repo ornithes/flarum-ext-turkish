@@ -43,7 +43,7 @@ flarum-flags:
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      dismiss_flag_tooltip: Bildirimi Yok Say
+      dismiss_flag_button: Bildirimi Yok Say
       flagged_by_text: "{username} şöyle bildirdi :"
       flagged_by_with_reason_text: "{username} {reason} olarak bildirdi."
 
