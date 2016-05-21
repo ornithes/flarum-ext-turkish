@@ -88,8 +88,6 @@ core:
     # These translations are used in the Extensions page.
     extensions:
       add_button: Eklenti Ekle
-      disable_button: Devre Dışı Bırak
-      enable_button: Etkinleştir
       settings_button: => core.ref.settings
       uninstall_button: Kaldır
 
@@ -427,6 +425,7 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
+      subject: Hesabınızı Aktifleştirin
       body: |
         Selam {username}!
 
@@ -436,10 +435,10 @@ core:
         {url}
 
         Eğer kayıt olmadıysan, bu mesajı görmezden gel.
-      subject: Hesabınızı Aktifleştirin
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
+      subject: Yeni E-posta Adresinizi Onaylayın
       body: |
         Selam {username}!
 
@@ -449,10 +448,10 @@ core:
         {url}
 
         Eğer bu değişikliği yapmadıysan, bu mesajı görmezden gel.
-      subject: Yeni E-posta Adresinizi Onaylayın
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
+      subject: => core.ref.reset_your_password
       body: |
         Selam {username}!
 
@@ -462,7 +461,6 @@ core:
         {url}
 
         Eğer şifreni değiştirmek istememişsen, sadece bu mesajı görmezden gel. Bir şey olmayacak.
-      subject: => core.ref.reset_your_password
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
