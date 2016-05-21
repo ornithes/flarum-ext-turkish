@@ -285,7 +285,7 @@ core:
     # These translations are used by tooltips displayed for individual posts.
     post:
       edited_text: "Düzenlenmiş"
-      edited_tooltip: "{username} {ago} düzenlendi."
+      edited_tooltip: "{username} {ago} düzenledi."
       number_tooltip: "Mesaj #{number}"
 
     # These translations are used by the post control buttons.
