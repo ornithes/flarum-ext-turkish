@@ -135,6 +135,7 @@ core:
       sign_up_label: Kayıt Ol
       start_discussions_label: Tartışma başlatma
       view_discussions_label: Tartışmaları görme
+      view_post_ips_label: Mesaj IP adreslerini görme
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
