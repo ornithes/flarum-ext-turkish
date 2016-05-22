@@ -138,7 +138,7 @@ core:
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Süresiz olarak
-      allow_some_minutes_button: "{count} dakika için|{count} dakika için"
+      allow_some_minutes_button: "{count} dakika için|{count} dakika için" # TESTIT
       allow_ten_minutes_button: 10 dakika boyunca
       allow_until_reply_button: Sonraki cevaba kadar
       everyone_button: Herkes
@@ -299,7 +299,7 @@ core:
       now_link: Son Mesaj
       original_post_link: İlk Mesaj
       unread_text: "{count} okunmamış"
-      viewing_text: "{count} mesajdan {index}.|{count} mesajdan {count}."
+      viewing_text: "{count} mesajdan {index}." # | {count} mesajdan {index}. TESTIT
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -493,7 +493,7 @@ core:
     save_changes: Kaydet                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Ayarlar
     sign_up: Kayıt Ol
-    some_others: "{count} diğer|{count} diğer kişi"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count} diğer|{count} diğer kişi"  # Referenced by flarum-likes.yml, flarum-mentions.yml (TESTIT)
     start_a_discussion: Tartışma Başlat
     username: Kullanıcı Adı
     write_a_reply: Cevap yaz...
