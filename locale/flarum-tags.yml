@@ -59,7 +59,7 @@ flarum-tags:
     choose_tags:
       choose_primary_placeholder: "Ana etiketi seçin|{count} ana etiketi seçin"
       choose_secondary_placeholder: "Bir tane daha etiket seçin|{count} tane daha etiket seçin"
-      edit_title: "{title} tartışmasının etiketlerini düzenle"
+      edit_title: "{title} için seçilmiş etiketleri düzenle"
       submit_button: => core.ref.okay
       title: Tartışmanız İçin Etiket Seçin
 
