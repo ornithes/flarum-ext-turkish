@@ -57,9 +57,9 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Ana etiketi seçin|{count} Ana etiketi seçin"
-      choose_secondary_placeholder: "Bir tane daha etiket seçin |{count} tane daha etiket seçin"
-      edit_title: "{title} İçin Etiketleri Düzenle"
+      choose_primary_placeholder: "Ana etiketi seçin|{count} ana etiketi seçin"
+      choose_secondary_placeholder: "Bir tane daha etiket seçin|{count} tane daha etiket seçin"
+      edit_title: "{title} tartışmasının etiketlerini düzenle"
       submit_button: => core.ref.okay
       title: Tartışmanız İçin Etiket Seçin
 
