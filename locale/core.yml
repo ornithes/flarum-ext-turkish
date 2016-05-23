@@ -62,12 +62,12 @@ core:
       delete_button: Grubu Sil
       delete_confirmation: "Bu grubu silmek istediğinize emin misiniz? Grup üyeleri SİLİNMEYECEK."
       icon_label: Simge
-      icon_text: "<code>fa-</code> ön eki olmadan istediğiniz bir <a>FontAwesome</a> ikon ismini girin."
+      icon_text: "<code>fa-</code> ön eki olmadan istediğiniz bir <a>FontAwesome</a> simge ismini girin."
       name_label: İsim
-      plural_placeholder: Çoğul (örn Moderatörler)
-      singular_placeholder: Tekil (örn Moderatör)
+      plural_placeholder: Çoğul (örn: Yönlendiriciler)
+      singular_placeholder: Tekil (örn: Yönlendirici)
       submit_button: => core.ref.save_changes
-      title: Grup oluştur
+      title: Grup Oluştur
     
     # These translations are used in the email page of the admin interface.
     email:
@@ -77,7 +77,7 @@ core:
       encryption_label: Şifreleme
       from_label: Gönderen
       heading: => core.ref.email
-      host_label: Host
+      host_label: Sunucu
       password_label: => core.ref.password
       port_label: Port
       server_heading: SMTP Sunucusu
@@ -123,7 +123,7 @@ core:
       delete_discussions_label: Tartışmaları gizleme
       delete_posts_forever_label: Mesajları tamamen silme
       edit_and_delete_posts_label: Mesajları düzenleme ve silme
-      global_heading: Global
+      global_heading: Genel
       moderate_heading: Yönetim
       new_group_button: Yeni Grup
       participate_heading: Katılım
@@ -138,7 +138,7 @@ core:
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Süresiz olarak
-      allow_some_minutes_button: "{count} dakika için|{count} dakika için" # TESTIT
+      allow_some_minutes_button: "{count} dakika için" # TESTIT |{count} dakika için
       allow_ten_minutes_button: 10 dakika boyunca
       allow_until_reply_button: Sonraki cevaba kadar
       everyone_button: Herkes
@@ -493,7 +493,7 @@ core:
     save_changes: Kaydet                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Ayarlar
     sign_up: Kayıt Ol
-    some_others: "{count} diğer|{count} diğer kişi"  # Referenced by flarum-likes.yml, flarum-mentions.yml (TESTIT)
+    some_others: "{count} diğer kişi"  # ({count} diğer| )Referenced by flarum-likes.yml, flarum-mentions.yml (TESTIT)
     start_a_discussion: Tartışma Başlat
     username: Kullanıcı Adı
     write_a_reply: Cevap yaz...
@@ -511,5 +511,5 @@ core:
     guests: Ziyaretçiler
     member: Üye
     members: Üyeler
-    mod: Moderatör
-    mods: Moderatörler
+    mod: Yönlendirici
+    mods: Yönlendiriciler
