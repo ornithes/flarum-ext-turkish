@@ -19,8 +19,9 @@ validation:
   different: "The :attribute and :other must be different."
   digits: "The :attribute must be :digits digits."
   digits_between: "The :attribute must be between :min and :max digits."
+  dimensions: "The :attribute has invalid image dimensions."
   distinct: "The :attribute field has a duplicate value."
-  email: "The :attribute must be a valid email address."
+  email: "Girilen :attribute geçerli bir e-posta adresi olmak zorunda."
   exists: "The selected :attribute is invalid."
   filled: "The :attribute field is required."
   image: "The :attribute must be an image."
@@ -63,14 +64,14 @@ validation:
   url: "The :attribute format is invalid."
 
   attributes:
-    username: username
-    password: password
-    email: email
-    title: title
-    content: content
-    name_singular: singular name
-    name_plural: plural name
+    username: kullanıcı adı
+    password: şifre
+    email: e-posta
+    title: başlık
+    content: içerik
+    name_singular: tekil isim
+    name_plural: çoğul isim
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      regex: "Kullanıcı adı yalnızca harf, sayı ve tire içerebilir."
