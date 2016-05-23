@@ -23,7 +23,7 @@ validation:
   distinct: "The :attribute field has a duplicate value."
   email: "Girilen :attribute geçerli bir e-posta adresi olmak zorunda."
   exists: "The selected :attribute is invalid."
-  filled: "The :attribute field is required."
+  filled: ":attribute alanı gereklidir."
   image: "The :attribute must be an image."
   in: "The selected :attribute is invalid."
   in_array: "The :attribute field does not exist in :other."
@@ -37,15 +37,15 @@ validation:
     array: "The :attribute may not have more than :max items."
   mimes: "The :attribute must be a file of type: :values."
   min:
-    numeric: "The :attribute must be at least :min."
+    numeric: ":attribute en az :min olmalı."
     file: "The :attribute must be at least :min kilobytes."
-    string: "The :attribute must be at least :min characters."
+    string: ":attribute en az :min karakter olmalıdır."
     array: "The :attribute must have at least :min items."
   not_in: "The selected :attribute is invalid."
-  numeric: "The :attribute must be a number."
+  numeric: ":attribute bir sayı olmalı."
   present: "The :attribute field must be present."
   regex: "The :attribute format is invalid."
-  required: "The :attribute field is required."
+  required: ":attribute alanı gereklidir."
   required_if: "The :attribute field is required when :other is :value."
   required_unless: "The :attribute field is required unless :other is in :values."
   required_with: "The :attribute field is required when :values is present."
@@ -64,9 +64,9 @@ validation:
   url: "The :attribute format is invalid."
 
   attributes:
-    username: kullanıcı adı
-    password: şifre
-    email: e-posta
+    username: Kullanıcı Adı
+    password: Şifre
+    email: E-posta
     title: başlık
     content: içerik
     name_singular: tekil isim
