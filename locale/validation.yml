@@ -67,8 +67,8 @@ validation:
     username: Kullanıcı Adı
     password: Şifre
     email: E-posta
-    title: başlık
-    content: içerik
+    title: Başlık
+    content: İçerik
     name_singular: tekil isim
     name_plural: çoğul isim
 
