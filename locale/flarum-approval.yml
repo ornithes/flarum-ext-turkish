@@ -9,7 +9,7 @@ flarum-approval:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      approve_posts_label: Mesajları onaylama
+      approve_posts_label: İletileri onaylama
       reply_without_approval_label: Onaylanmadan tartışmaları cevaplama
       start_discussions_without_approval_label: Onaylanmadan tartışma başlatma
 
