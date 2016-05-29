@@ -29,7 +29,7 @@ flarum-subscriptions:
     # These translations are used in the Settings page.
     settings:
       forum_follow_after_reply_label: Cevap yazdığım tartışmaları otomatik olarak takibe al
-      notify_new_post_label: Takip ettiğim tartışmaya mesaj atıldığında
+      notify_new_post_label: Takip ettiğim tartışmaya ileti gönderildiğinde
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
@@ -40,8 +40,8 @@ flarum-subscriptions:
       ignoring_text: Asla bildirim almayın. Tartışmalar listesinden gizleyin.
       not_following_button: Takip Edilmiyor
       not_following_text: "Yalnızca @bahsedilme ile bildirim alın."
-      notify_alert_tooltip: Yeni mesajlar gönderildiğinde forum bildirimi alın
-      notify_email_tooltip: Yeni mesajlar gönderildiğinde e-posta bildirimi alın
+      notify_alert_tooltip: Yeni iletiler gönderildiğinde forum bildirimi alın
+      notify_email_tooltip: Yeni iletiler gönderildiğinde e-posta bildirimi alın
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
