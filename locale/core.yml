@@ -18,11 +18,18 @@ core:
       colored_header_label: Renkli Başlık
       colors_heading: Renkler
       colors_text: "Forumunuza uygulanacak iki rengi seçin. Birinci renk öğelerin vurgusu, ikinci renk ise arkaplan öğeleri için kullanılacak."
+      custom_header_heading: Özel Başlık
+      custom_header_text: Sayfaların en başına eklenecek HTML kodunu girin. Bu kod Flarum'un başlığından yukarda olacak.
       custom_styles_heading: Özel Stiller
       custom_styles_text: Kendinize ait LESS/CSS kodunu Flarum'un öntanımlı stilleri üzerine ekleyerek forumunuzun görünümünü özelleştirin.
       dark_mode_label: Karanlık Kip
       edit_css_button: Özel Stili Düzenle
+      edit_header_button: Özel Başlığı Düzenle
       enter_hex_message: Lütfen onaltılık bir renk kodu girin.
+      favicon_heading: Simgecik
+      favicon_text: Forumunuz için adres çubuğunda gözükecek olan mini simgeyi yükleyin.
+      logo_heading: Logo
+      logo_text: Forum başlığı yerinde gösterilecek olan resmi yükleyin.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -68,6 +75,12 @@ core:
       singular_placeholder: Tekil (örn: Yönlendirici)
       submit_button: => core.ref.save_changes
       title: Grup Oluştur
+    
+    # These translations are used in the Edit Custom Header modal dialog.
+    edit_header:
+      customize_text: Sayfaların en başına eklenecek HTML kodunu girin. Bu kod Flarum'un başlığından yukarda olacak.
+      submit_button: => core.ref.save_changes
+      title: Özel Başlığı Düzenle
     
     # These translations are used in the email page of the admin interface.
     email:
@@ -146,6 +159,11 @@ core:
       signup_closed_button: Kapalı
       signup_open_button: Açık
 
+    # These translations are used in image upload buttons.
+    upload_image:
+      remove_button: Sil
+      upload_button: Resim Seçin...
+    
     # These translations are used in the Settings modal dialog.
     settings:
       submit_button: => core.ref.save_changes
