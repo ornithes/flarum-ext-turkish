@@ -83,7 +83,14 @@ flarum-tags:
       added_and_removed_tags_text: "{username} {tagsAdded} ekledi ve {tagsRemoved} sildi."
       removed_tags_text: "{username} {tagsRemoved} sildi."
       tags_text: "{tags} etiketini|{tags} etiketlerini"
+  
+  # Translations in this namespace are used in messages output by the API.
+  api:
 
+    # These translations are used in messages regarding the number of tags assigned to a discussion.
+    primary_tag_count_text: birincil etiket sayısı
+    secondary_tag_count_text: ikincil etiket sayısı
+  
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
