@@ -27,9 +27,9 @@ core:
       edit_header_button: Özel Başlığı Düzenle
       enter_hex_message: Lütfen onaltılık bir renk kodu girin.
       favicon_heading: Simgecik
-      favicon_text: Forumunuz için adres çubuğunda gözükecek olan mini simgeyi yükleyin.
+      favicon_text: Forumunuz için adres çubuğunda gözükecek mini simgeyi yükleyin.
       logo_heading: Logo
-      logo_text: Forum başlığı yerinde gösterilecek olan resmi yükleyin.
+      logo_text: Forum başlığı yerinde gösterilecek resmi yükleyin.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
