@@ -11,7 +11,7 @@ core:
     add_extension:
       developer_text: "Eğer geliştirici iseniz, <a>dökümanları</a> okuyabilir ve kendi eklentilerinizi yazabilirsiniz."
       install_text: "Bu arada, eklentiler için <a>Flarum Topluluğu sitesine</a> bakabilir ve eklentileri Composer yardımıyla yükleyebilirsiniz."
-      temporary_text: "Çok uzak olmayan bir gün gelecek, bu diyalog forumunuza kolaylıkla eklenti kurmanıza olanak sağlayacak. Söylediğimiz gibi, biz bir ekosistem inşa ediyoruz!"
+      temporary_text: "Pek de uzak olmayan bir gün gelecek, bu diyalog forumunuza kolaylıkla eklenti kurmanıza olanak sağlayacak. Söylediğimiz gibi, biz bir ekosistem inşa ediyoruz!"
 
     # These translations are used in the Appearance page.
     appearance:
@@ -27,7 +27,7 @@ core:
       edit_header_button: Özel Başlığı Düzenle
       enter_hex_message: Lütfen onaltılık bir renk kodu girin.
       favicon_heading: Simgecik
-      favicon_text: Forumunuz için adres çubuğunda gözükecek mini simgeyi yükleyin.
+      favicon_text: Forumunuz için adres çubuğunda gözükecek minik simgeyi yükleyin.
       logo_heading: Logo
       logo_text: Forum başlığı yerinde gösterilecek resmi yükleyin.
       submit_button: => core.ref.save_changes
@@ -37,10 +37,10 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Öntanımlı Dil
       forum_description_heading: Forum Açıklaması
-      forum_description_text: Forumunuz için kısa bir veya iki cümle yazın. Bu arama motorlarında ve meta etiketleri arasında gözükür.
+      forum_description_text: Forumunuz için bir veya iki kısa cümle yazın. Bu arama motorlarında ve meta etiketleri arasında gözükür.
       forum_title_heading: Forum Başlığı
       home_page_heading: Anasayfa
-      home_page_text: "Kullanıcıların forumunuzu ilk ziyaret ettiğinde göreceği sayfayı seçin. If entering a custom value, use the path relative to the forum root."
+      home_page_text: "Kullanıcıların forumunuzu ilk ziyaret ettiğinde göreceği sayfayı seçin."
       saved_message: Değişiklikleriniz kaydedildi.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Karşılama İletisi
@@ -131,7 +131,7 @@ core:
     permissions:
       allow_renaming_label: Yeniden isimlendirmeye izin ver
       allow_post_editing_label: İleti düzenlemeye izin ver
-      create_heading: Oluştur
+      create_heading: Oluşturma
       delete_discussions_forever_label: Tartışmaları tamamen silme
       delete_discussions_label: Tartışmaları gizleme
       delete_posts_forever_label: İletileri tamamen silme
