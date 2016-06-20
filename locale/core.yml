@@ -279,7 +279,7 @@ core:
       newest_button: En Yeni
       oldest_button: En Eski
       relevance_button: Alâka
-      top_button: En Popüler
+      top_button: En Gözde
 
     # These translations are used in the Log In modal dialog.
     log_in:
