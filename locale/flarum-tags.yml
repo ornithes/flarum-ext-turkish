@@ -27,11 +27,11 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Tartışmaları düzenlemek için kullanılan etiketleri yönetin.
+      tags_text: Tartışmaları yönetmek için kullanılan etiketleri düzenleyin.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Etiket düzenlemeye izin ver
+      allow_edit_tags_label: Etiketleri düzenlemeye izin ver
       restrict_by_tag_heading: Etikete göre kısıtla
       tag_discussions_label: Tartışmaları etiketleme
 
@@ -39,9 +39,9 @@ flarum-tags:
     tag_settings:
       range_separator_text: " - "
       required_primary_heading: Gerekli Birincil Etiket Sayısı
-      required_primary_text: Tartışmaya uygulanacak en çok ve en az birincil etiket sayısını girin.
+      required_primary_text: Tartışmaya uygulanabilecek en çok ve en az birincil etiket sayısını girin.
       required_secondary_heading: Gerekli İkincil Etiket Sayısı
-      required_secondary_text: Tartışmaya uygulanacak en çok ve en az ikincil etiket sayısını girin.
+      required_secondary_text: Tartışmaya uygulanabilecek en çok ve en az ikincil etiket sayısını girin.
       title: Etiket Ayarları
 
     # These translations are used in the Tags page.
